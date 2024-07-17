@@ -1,0 +1,19 @@
+{
+  "name": "block34_guided_practice",
+  "version": "1.0.0",
+  "description": "join tables pt. 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
+  }
+}
