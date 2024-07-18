@@ -13,9 +13,9 @@ const {
 // function to create database tables, seed data into tables
 const init = async () => {
   await client.connect();
-  console.log("tables created");
 
   await createTables();
+  console.log("Tables created.")
   const [joe, caleb, ryan, chi, cle] = await Promise.all([
     createUser({ name: "Joe" }),
     createUser({ name: "Caleb" }),
